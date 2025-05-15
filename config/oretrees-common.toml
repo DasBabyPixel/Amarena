@@ -12,23 +12,23 @@ id = "core_t2"
 color = [0x1f, 0x1f, 239]
 [[trees]]
 id = "core_t3"
-color = [0x15, 0x15, 0x15]
+color = [0x25, 0x25, 0x25]
 
 [[trees]]
 id = "coal"
-color = [0, 0, 0]
+color = [5, 5, 5]
 [[trees]]
 id = "iron"
-color = [0xb8, 0xb8, 0xb8]
+color = [0xcf, 162, 0x88]
 [[trees]]
 id = "copper"
-color = [0xcd, 0xa6, 0x98]
+color = [205, 96, 57]
 [[trees]]
 id = "gold"
-color = [235, 0xd4, 0x50]
+color = [0xff, 0xd0, 0x00]
 [[trees]]
 id = "redstone"
-color = [0xff, 0x80, 0x80]
+color = [222, 0, 26]
 [[trees]]
 id = "emerald"
 color = [0x0, 0xf8, 0x81]
@@ -40,16 +40,16 @@ id = "diamond"
 color = [0x46, 0xff, 0xf2]
 [[trees]]
 id = "quartz"
-color = [237, 237, 237]
+color = [255, 255, 255]
 [[trees]]
 id = "ancient"
-color = [0xb2, 0xa3, 0x9f]
+color = [90, 43, 31]
 [[trees]]
 id = "clay"
 color = [0xcf, 0xd2, 0xd7]
 [[trees]]
 id = "sand"
-color = [0xf0, 0xff, 0x70]
+color = [233, 240, 178]
 [[trees]]
 id = "stone"
 color = [0xb9, 0xb9, 0xb9]
@@ -58,32 +58,32 @@ id = "gravel"
 color = [0xa0, 0xa0, 0xa0]
 [[trees]]
 id = "glowstone"
-color = [254, 0xdd, 174]
+color = [186, 144, 36]
 [[trees]]
 id = "amethyst"
-color = [0xc5, 0xb4, 229]
+color = [138, 89, 229]
 
 [[trees]]
 id = "desh"
-color = [226, 0xb8, 0xa0]
+color = [183, 82, 24]
 [[trees]]
 id = "ice_shard"
-color = [0xbc, 0xc7, 0xdd]
+color = [192, 204, 251]
 [[trees]]
 id = "ostrum"
-color = [0xc8, 174, 0xb1]
+color = [118, 58, 73]
 [[trees]]
 id = "calorite"
-color = [228, 0xa6, 0xa7]
+color = [182, 41, 59]
 [[trees]]
 id = "demonite"
-color = [0xd7, 0xf7, 0xf2]
+color = [80, 255, 227]
 [[trees]]
 id = "zinc"
 color = [0xdb, 0xf3, 0xdf]
 [[trees]]
 id = "draconium"
-color = [0xc3, 0x92, 232]
+color = [146, 6, 251]
 [[trees]]
 id = "aluminium"
 color = [224, 228, 229]
@@ -92,64 +92,64 @@ id = "uranium"
 color = [0x92, 174, 0x77]
 [[trees]]
 id = "osmium"
-color = [0xc1, 0xc7, 0xd2]
+color = [153, 188, 252]
 [[trees]]
 id = "fluorite"
 color = [0xf5, 0xfd, 0xf9]
 [[trees]]
 id = "uraninite"
-color = [0x80, 0xd1, 0xa2]
+color = [21, 159, 58]
 [[trees]]
 id = "dimensional_shard"
-color = [0xbd, 227, 226]
+color = [22, 227, 221]
 [[trees]]
 id = "apatite"
-color = [0x8c, 174, 0xc9]
+color = [27, 190, 237]
 [[trees]]
 id = "cinnabar"
-color = [0xd4, 0x90, 0x95]
+color = [155, 26, 36]
 [[trees]]
 id = "niter"
-color = [0xcd, 0xc5, 0xc6]
+color = [236, 0xca, 206]
 [[trees]]
 id = "tin"
-color = [0xc3, 0xd0, 0xd2]
+color = [0x00, 0x75, 0xa8]
 [[trees]]
 id = "lead"
-color = [0x91, 0x92, 0xab]
+color = [79, 79, 171]
 [[trees]]
 id = "silver"
-color = [0xba, 0xc0, 0xc8]
+color = [83, 174, 200]
 [[trees]]
 id = "nickel"
-color = [0xd7, 0xcf, 0xba]
+color = [215, 182, 97]
 [[trees]]
 id = "ruby"
-color = [226, 0x8b, 0x9a]
+color = [181, 11, 40]
 [[trees]]
 id = "sapphire"
-color = [0x9a, 190, 254]
+color = [21, 105, 254]
 [[trees]]
 id = "cobalt"
 color = [0x48, 0x7d, 0xff]
 [[trees]]
 id = "juperium"
-color = [0xaa, 0xd3, 236]
+color = [35, 160, 236]
 [[trees]]
 id = "saturlyte"
-color = [0xbb, 0x89, 233]
+color = [89, 5, 171]
 [[trees]]
 id = "neptunium"
-color = [0xc0, 0xd3, 0xb5]
+color = [55, 42, 195]
 [[trees]]
 id = "radium"
-color = [0xb8, 0xf7, 0xc2]
+color = [109, 255, 132]
 [[trees]]
 id = "plutonium"
-color = [254, 0xf9, 0x80]
+color = [244, 244, 39]
 [[trees]]
 id = "electrolyte"
-color = [0x91, 0x8a, 228]
+color = [9, 0, 191]
 [[trees]]
 id = "hellforged_parts"
-color = [0xd0, 238, 232]
+color = [113, 238, 204]
