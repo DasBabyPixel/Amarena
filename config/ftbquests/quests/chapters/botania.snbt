@@ -5,7 +5,7 @@
 	group: "1A626ECE99641E34"
 	icon: "botania:black_lotus"
 	id: "531746D57893EFCC"
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{

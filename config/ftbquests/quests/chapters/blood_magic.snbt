@@ -5,7 +5,7 @@
 	group: "1A626ECE99641E34"
 	icon: "bloodmagic:weakbloodorb"
 	id: "519546197AF43905"
-	order_index: 2
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{

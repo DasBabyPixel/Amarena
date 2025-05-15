@@ -738,23 +738,6 @@
 			x: 12.0d
 			y: 15.0d
 		}
-		{
-			dependencies: ["5D7ED5EEE8A492B0"]
-			id: "191BB9C574AD48FC"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "0472B5943D388A32"
-				table_id: 8024000200115007606L
-				type: "random"
-			}]
-			tasks: [{
-				id: "5B6D688CBFED5744"
-				item: "ad_astra:glacian_fur"
-				type: "item"
-			}]
-			x: 15.0d
-			y: 12.0d
-		}
 	]
 	title: "Ad astra: To the stars II"
 }

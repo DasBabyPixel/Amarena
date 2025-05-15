@@ -5,7 +5,7 @@
 	group: "1A626ECE99641E34"
 	icon: "mekanism:atomic_disassembler"
 	id: "6803019D01AF276F"
-	order_index: 3
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
