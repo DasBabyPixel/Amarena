@@ -103,6 +103,7 @@
 					}
 				}
 				type: "item"
+				weak_nbt_match: true
 			}]
 			title: "Better Bonsai Harvest"
 			x: 0.5d
