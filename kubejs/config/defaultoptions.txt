@@ -1,0 +1,7 @@
+autoJump:false
+enableVsync:false
+gamma:1.0
+maxFps:120
+narrator:0
+tutorialStep:none
+soundCategory_music:0.0
