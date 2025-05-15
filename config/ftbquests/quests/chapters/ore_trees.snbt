@@ -91,13 +91,13 @@
 				type: "random"
 			}]
 			tasks: [{
-				id: "6A1BC55A5E886EE0"
+				id: "63363D74FCCC5457"
 				item: {
 					Count: 1
 					id: "minecraft:enchanted_book"
 					tag: {
 						StoredEnchantments: [{
-							id: "minecraft:looting"
+							id: "minecraft:fortune"
 							lvl: 3s
 						}]
 					}
