@@ -9,7 +9,7 @@
 		tag: { }
 	}
 	id: "363A3C9B1EE31BC8"
-	order_index: 0
+	order_index: 7
 	quest_links: [ ]
 	quests: [
 		{
@@ -20,7 +20,7 @@
 			id: "18A178B494851912"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "65477C1B823D485F"
+				id: "4138F867AE631233"
 				table_id: 8024000200115007606L
 				type: "random"
 			}]
@@ -42,7 +42,7 @@
 			id: "6E144542A6AC1605"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "2469467F3C138D48"
+				id: "5250F2E65E4B4004"
 				table_id: 8024000200115007606L
 				type: "random"
 			}]
@@ -56,11 +56,11 @@
 		}
 		{
 			dependencies: ["18A178B494851912"]
-			description: ["Your rocket needs fuel. Therefore, machinery to produce and load fuel is required."]
+			description: ["The fuel loader can be used to fuel up your rocket. It is technically optional, but manual refills are tedious."]
 			id: "7DC0E56A2959EE0E"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "0EA10E608871F02C"
+				id: "349E358FCEC108AA"
 				table_id: 8024000200115007606L
 				type: "random"
 			}]
@@ -85,7 +85,7 @@
 			id: "354C11E1C437709A"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "1A53125AECEEDE0F"
+				id: "0DC94BA3C1412D85"
 				table_id: 8024000200115007606L
 				type: "random"
 			}]
@@ -149,7 +149,7 @@
 			id: "41D52F9A676DB789"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "3584A5FBD2EF7A4A"
+				id: "711D9F5BF9E6F086"
 				table_id: 8024000200115007606L
 				type: "random"
 			}]
@@ -176,7 +176,7 @@
 			id: "292C924225289FD0"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "5C07547EB33A8E71"
+				id: "3876849ECA7C5818"
 				table_id: 8024000200115007606L
 				type: "random"
 			}]
@@ -198,7 +198,7 @@
 			id: "11FCF57C050BC55F"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "6EFAE41DCA94BBC8"
+				id: "1221E9453EF17CAC"
 				table_id: 8024000200115007606L
 				type: "random"
 			}]
@@ -220,7 +220,7 @@
 			id: "743A19CFF768D5AA"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "4BDEBEE9DDD6E524"
+				id: "58A4B7AAF705D519"
 				table_id: 8024000200115007606L
 				type: "random"
 			}]
@@ -258,7 +258,7 @@
 			id: "57507458F5A3A6CB"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "58B63E87C3E229AC"
+				id: "35159F7F91E7D52F"
 				table_id: 8024000200115007606L
 				type: "random"
 			}]
@@ -284,7 +284,7 @@
 			id: "0397FF9B3A21D5D1"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "752D6FF3B4476241"
+				id: "7FEF07E2B5507601"
 				table_id: 8024000200115007606L
 				type: "random"
 			}]
@@ -302,7 +302,7 @@
 			id: "5DE47137D9F147D9"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "117AB13065D187A3"
+				id: "747CD237957FCA05"
 				table_id: 8024000200115007606L
 				type: "random"
 			}]
@@ -324,7 +324,7 @@
 			id: "5E447E815ED4E711"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "572815092D05C58D"
+				id: "63402CB8CF4C8D5B"
 				table_id: 8024000200115007606L
 				type: "random"
 			}]
@@ -347,7 +347,7 @@
 			id: "3325DF5469D01FDB"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "5CA25D81F428F492"
+				id: "10801472ED26F9AF"
 				table_id: 8024000200115007606L
 				type: "random"
 			}]
@@ -367,7 +367,7 @@
 			id: "63CB46F73A0BADD8"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "5885AE7CCC234893"
+				id: "4AF644578B4E70C3"
 				table_id: 8024000200115007606L
 				type: "random"
 			}]
