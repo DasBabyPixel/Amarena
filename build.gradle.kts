@@ -10,12 +10,6 @@ val server = "server"
 
 val dirs = setOf(common, client, server)
 val roots = dirs.groupBy({ it }, { fileTree("src/$it") }).mapValues { it.value.single() }
-val files = roots.mapValues {
-    project.fileTree(it.value.dir.resolve("files"))
-}
-val localFiles = roots.mapValues {
-    project.fileTree(it.value.dir.resolve("local-files"))
-}
 
 val prepareTasks = roots.mapValues {
     tasks.register<PrepareDirectory>("${it.key}PrepareDirectory") {
@@ -92,6 +86,10 @@ abstract class PrepareDirectory : DefaultTask() {
     @get:InputDirectory
     abstract val localFilesDirectory: DirectoryProperty
 
+    @get:Optional
+    @get:InputDirectory
+    abstract val devFilesDirectory: DirectoryProperty
+
     @get:OutputDirectory
     abstract val output: DirectoryProperty
 
@@ -100,6 +98,7 @@ abstract class PrepareDirectory : DefaultTask() {
 
     init {
         filesDirectory.convention(sourceSet.map { it.dir("files").apply { project.mkdir(this) } })
+        devFilesDirectory.convention(sourceSet.map { it.dir("dev-files").apply { project.mkdir(this) } })
         localFilesDirectory.convention(sourceSet.map { it.dir("local-files").apply { project.mkdir(this) } })
         output.convention(project.layout.dir(project.provider { temporaryDir }))
     }
@@ -130,6 +129,7 @@ abstract class PrepareDirectory : DefaultTask() {
             }
         }
         copy(filesDirectory)
+        copy(devFilesDirectory)
         copy(localFilesDirectory)
     }
 }

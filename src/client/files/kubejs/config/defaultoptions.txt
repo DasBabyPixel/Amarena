@@ -1,0 +1,6 @@
+soundCategory_master:0.3
+soundCategory_music:0.0
+gamma:1.0
+narrator:0
+narratorHotkey:false
+onboardAccessibility:false
