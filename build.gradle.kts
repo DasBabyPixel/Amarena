@@ -137,6 +137,12 @@ abstract class PrepareDirectory : DefaultTask() {
     }
 }
 
+abstract class PullFromMinecraft : Sync() {
+    @get:Internal
+    @get:Option(option = "directory", description = "Minecraft directory")
+    abstract val directory: DirectoryProperty
+}
+
 val backup = tasks.register<BackupClient>("backupClient")
 
 tasks.register<PrepareClient>("prepareClient") {
@@ -145,4 +151,14 @@ tasks.register<PrepareClient>("prepareClient") {
 
     from(prepareTasks[common])
     from(prepareTasks[client])
+}
+
+tasks.register<PullFromMinecraft>("pullFromMinecraft") {
+    fun copyDir(srcDir: String, dstDir: String) {
+        from(directory.dir(srcDir)) { into(dstDir) }
+        preserve { exclude("$dstDir/**") }
+    }
+    into("src")
+
+    copyDir("config/ftbquests/quests", "common/files/config/ftbquests/quests")
 }
