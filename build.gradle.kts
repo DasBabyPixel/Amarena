@@ -44,9 +44,7 @@ abstract class BackupClient : DefaultTask() {
         val backupDir = targetDirectory.dir("backup-$timestamp")
         val limit = maxBackups.get()
         fs.copy {
-            from(directory) {
-                this.eachFile {}
-            }
+            from(directory)
             into(backupDir)
         }
 
