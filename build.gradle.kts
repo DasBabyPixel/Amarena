@@ -69,6 +69,10 @@ abstract class PrepareClient : Sync() {
     init {
         into(directory)
         outputs.upToDateWhen { false }
+        preserve {
+            include(".vscode/**")
+            include(".probe/**")
+        }
     }
 }
 
