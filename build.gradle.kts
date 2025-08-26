@@ -137,6 +137,12 @@ abstract class PrepareDirectory : DefaultTask() {
     }
 }
 
+abstract class PushToMinecraft : Sync() {
+    @get:Internal
+    @get:Option(option = "directory", description = "Minecraft directory")
+    abstract val directory: DirectoryProperty
+}
+
 abstract class PullFromMinecraft : Sync() {
     @get:Internal
     @get:Option(option = "directory", description = "Minecraft directory")
@@ -154,11 +160,35 @@ tasks.register<PrepareClient>("prepareClient") {
 }
 
 tasks.register<PullFromMinecraft>("pullFromMinecraft") {
+    outputs.upToDateWhen { false }
     fun copyDir(srcDir: String, dstDir: String) {
         from(directory.dir(srcDir)) { into(dstDir) }
         preserve { exclude("$dstDir/**") }
     }
+
+    fun copyFile(srcFile: String, dstDir: String, dstName: String) {
+        from(directory.file(srcFile)) {
+            into(dstDir)
+            rename { dstName }
+        }
+    }
     into("src")
 
     copyDir("config/ftbquests/quests", "common/files/config/ftbquests/quests")
+    // Copy this because of the ProbeJS registry hash
+    copyFile("kubejs/config/probe-settings.json", "client/local-files/kubejs/config", "probe-settings.json")
+}
+
+tasks.register<PushToMinecraft>("pushToMinecraft") {
+    outputs.upToDateWhen { false }
+    into(directory)
+    fun copyDir(srcDir: String, dstDir: String) {
+        from("src/$srcDir") { into(dstDir) }
+        preserve { exclude("$dstDir/**") }
+    }
+
+    copyDir("common/files/kubejs/server_scripts", "kubejs/server_scripts")
+    copyDir("common/files/kubejs/data", "kubejs/data")
+    copyDir("client/files/kubejs/client_scripts", "kubejs/client_scripts")
+    copyDir("client/files/kubejs/assets", "kubejs/assets")
 }
