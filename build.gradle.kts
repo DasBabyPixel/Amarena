@@ -186,6 +186,7 @@ tasks.register<PushToMinecraft>("pushToMinecraft") {
         from("src/$srcDir") { into(dstDir) }
         preserve { exclude("$dstDir/**") }
     }
+    doNotTrackState("session lock file")
 
     copyDir("common/files/kubejs/server_scripts", "kubejs/server_scripts")
     copyDir("common/files/kubejs/data", "kubejs/data")
