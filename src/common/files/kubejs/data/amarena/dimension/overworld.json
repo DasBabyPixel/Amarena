@@ -1,0 +1,16 @@
+{
+  "type": "amarena:skyblock",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "minecraft:plains",
+      "layers": [
+        {
+          "block": "minecraft:stone",
+          "height": 1
+        }
+      ],
+      "structure_overrides": []
+    }
+  }
+}
