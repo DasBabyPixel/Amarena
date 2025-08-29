@@ -6,7 +6,7 @@
       "biome": "minecraft:plains",
       "layers": [
         {
-          "block": "minecraft:stone",
+          "block": "minecraft:air",
           "height": 1
         }
       ],
