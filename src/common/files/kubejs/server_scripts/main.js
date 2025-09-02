@@ -1,3 +1,7 @@
+// priority: 10
+
+console.info(stagesToItems)
+
 let $HashMap = Java.loadClass("java.util.HashMap")
 // Visit the wiki for more info - https://kubejs.com/
 console.info('Hello, World! (Loaded server example script)')
@@ -8,9 +12,10 @@ AStages.customizeStage('test_stage_1')
 
 AStages.addRestrictionForMod("remove_vanilla_items_0", "test_stage_1", "minecraft")
     .ignoreItems("minecraft:dirt", "minecraft:grass_block")
-Item.of('acacia_button')
+// Item.of('acacia_button')
 
 let map = new $HashMap();
+
 console.info(map.toString())
 
 ServerEvents.afterRecipes(event => {
