@@ -59,8 +59,127 @@
 				item: { count: 1, id: "minecraft:dirt" }
 				type: "item"
 			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			id: "6CCE2DE024C4963B"
+			tasks: [{
+				id: "4DC7336180A76754"
+				item: { count: 1, id: "woodenshears:wooden_shears" }
+				type: "item"
+			}]
 			x: -2.0d
 			y: 1.0d
+		}
+		{
+			icon: {
+				id: "exdeorum:oak_sieve"
+			}
+			id: "4807B1A9A54EBB30"
+			tasks: [
+				{
+					id: "27A38F7B6C8D8549"
+					item: { count: 1, id: "exdeorum:oak_sieve" }
+					type: "item"
+				}
+				{
+					id: "69C775DA141CB45B"
+					item: { count: 1, id: "exdeorum:string_mesh" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			id: "549A7EA5ED404015"
+			tasks: [{
+				id: "5EEAF4950E6C141F"
+				item: { count: 1, id: "minecraft:string" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			id: "51EE1F2673C6223D"
+			tasks: [{
+				id: "49F8EEF41303E53A"
+				item: { count: 1, id: "exdeorum:wooden_hammer" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "exdeorum:oak_crucible"
+			}
+			id: "5833FB4B6FEC129F"
+			tasks: [
+				{
+					id: "78E3C1E79DBCB724"
+					item: { count: 1, id: "exdeorum:oak_crucible" }
+					type: "item"
+				}
+				{
+					id: "3C41E48F27C9C762"
+					item: { count: 1, id: "minecraft:glass_bottle" }
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			id: "6186ABE693414F26"
+			tasks: [{
+				id: "0EF81B8E5D3D0463"
+				item: { count: 1, id: "minecraft:clay" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			id: "40BBBE826F5D617B"
+			tasks: [
+				{
+					id: "4EC520EB1AE92C36"
+					item: { count: 1, id: "exdeorum:porcelain_clay_ball" }
+					type: "item"
+				}
+				{
+					id: "07DF2834AF5D60F2"
+					item: { count: 1, id: "exdeorum:porcelain_crucible" }
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			id: "732EBC686EC66317"
+			tasks: [
+				{
+					id: "136CBAC9B478CC86"
+					item: { count: 1, id: "minecraft:gravel" }
+					type: "item"
+				}
+				{
+					id: "278CE6353C4BD273"
+					item: { count: 1, id: "minecraft:sand" }
+					type: "item"
+				}
+				{
+					id: "17F7CD46A278FC92"
+					item: { count: 1, id: "exdeorum:dust" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
 		}
 	]
 }
