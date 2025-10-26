@@ -1,0 +1,66 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "stone_age"
+	group: ""
+	icon: {
+		id: "minecraft:oak_wood"
+	}
+	id: "460ADB474639B65A"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "5ED00AEAD7082D2D"
+			tasks: [{
+				count: 8L
+				id: "1F28B908B17ED5E3"
+				item: { count: 1, id: "minecraft:oak_log" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			id: "1DB8DD6498E2B04A"
+			tasks: [{
+				consume_items: false
+				id: "198616249AD648AE"
+				item: { count: 1, id: "exdeorum:silkworm" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			id: "00063628979C8FAB"
+			tasks: [{
+				id: "0B8E5B2F64003F13"
+				item: { count: 1, id: "exdeorum:oak_barrel" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			id: "220DE7BCB081C67B"
+			tasks: [{
+				id: "492CB8AAD7E2AA40"
+				item: { count: 1, id: "exdeorum:crook" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			id: "70850EA63C3C0490"
+			tasks: [{
+				id: "66F1416734E87F5B"
+				item: { count: 1, id: "minecraft:dirt" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+	]
+}
