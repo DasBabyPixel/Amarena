@@ -73,6 +73,7 @@ abstract class PrepareClient : Sync() {
             include(".vscode/**")
             include(".probe/**")
             include("config/ftbquests/**")
+            include("saves/**")
         }
     }
 }
