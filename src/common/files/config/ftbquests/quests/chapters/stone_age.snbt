@@ -104,11 +104,18 @@
 		}
 		{
 			id: "51EE1F2673C6223D"
-			tasks: [{
-				id: "49F8EEF41303E53A"
-				item: { count: 1, id: "exdeorum:wooden_hammer" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "49F8EEF41303E53A"
+					item: { count: 1, id: "exdeorum:wooden_hammer" }
+					type: "item"
+				}
+				{
+					id: "6E861D0E67E7107A"
+					item: { count: 1, id: "minecraft:cobblestone" }
+					type: "item"
+				}
+			]
 			x: 2.5d
 			y: 0.0d
 		}
@@ -179,6 +186,27 @@
 				}
 			]
 			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "6562D8C6DB446CC1"
+			tasks: [{
+				id: "62291A68F0CFC4A1"
+				item: { count: 1, id: "exdeorum:porcelain_lava_bucket" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			id: "7D97B7294AFE3313"
+			tasks: [{
+				count: 16L
+				id: "5E8BF2CE2B5788CC"
+				item: { count: 1, id: "minecraft:andesite" }
+				type: "item"
+			}]
+			x: 11.5d
 			y: 0.0d
 		}
 	]
