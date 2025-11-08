@@ -24,7 +24,7 @@
 		{
 			id: "1DB8DD6498E2B04A"
 			tasks: [{
-				consume_items: false
+				consume_items: true
 				id: "198616249AD648AE"
 				item: { count: 1, id: "exdeorum:silkworm" }
 				type: "item"
@@ -55,6 +55,7 @@
 		{
 			id: "70850EA63C3C0490"
 			tasks: [{
+				count: 4L
 				id: "66F1416734E87F5B"
 				item: { count: 1, id: "minecraft:dirt" }
 				type: "item"
@@ -103,16 +104,20 @@
 			y: -1.0d
 		}
 		{
+			icon: {
+				id: "minecraft:cobblestone"
+			}
 			id: "51EE1F2673C6223D"
 			tasks: [
 				{
-					id: "49F8EEF41303E53A"
-					item: { count: 1, id: "exdeorum:wooden_hammer" }
+					id: "6E861D0E67E7107A"
+					item: { count: 1, id: "minecraft:cobblestone" }
 					type: "item"
 				}
 				{
-					id: "6E861D0E67E7107A"
-					item: { count: 1, id: "minecraft:cobblestone" }
+					count: 16L
+					id: "084159E11FC03343"
+					item: { count: 16, id: "exdeorum:stone_pebble" }
 					type: "item"
 				}
 			]
@@ -124,32 +129,38 @@
 				id: "exdeorum:oak_crucible"
 			}
 			id: "5833FB4B6FEC129F"
-			tasks: [
-				{
-					id: "78E3C1E79DBCB724"
-					item: { count: 1, id: "exdeorum:oak_crucible" }
-					type: "item"
-				}
-				{
-					id: "3C41E48F27C9C762"
-					item: { count: 1, id: "minecraft:glass_bottle" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "78E3C1E79DBCB724"
+				item: { count: 1, id: "exdeorum:oak_crucible" }
+				type: "item"
+			}]
 			x: 5.5d
 			y: 0.0d
 		}
 		{
+			icon: {
+				id: "minecraft:clay"
+			}
 			id: "6186ABE693414F26"
-			tasks: [{
-				id: "0EF81B8E5D3D0463"
-				item: { count: 1, id: "minecraft:clay" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0EF81B8E5D3D0463"
+					item: { count: 1, id: "minecraft:clay" }
+					type: "item"
+				}
+				{
+					id: "438DE6E28BCC4577"
+					item: { count: 1, id: "minecraft:glass_bottle" }
+					type: "item"
+				}
+			]
 			x: 7.0d
 			y: 0.0d
 		}
 		{
+			icon: {
+				id: "exdeorum:unfired_porcelain_crucible"
+			}
 			id: "40BBBE826F5D617B"
 			tasks: [
 				{
@@ -162,11 +173,19 @@
 					item: { count: 1, id: "exdeorum:porcelain_crucible" }
 					type: "item"
 				}
+				{
+					id: "4B4B402477D221BA"
+					item: { count: 1, id: "exdeorum:porcelain_bucket" }
+					type: "item"
+				}
 			]
-			x: 8.5d
+			x: 10.0d
 			y: 0.0d
 		}
 		{
+			icon: {
+				id: "exdeorum:wooden_hammer"
+			}
 			id: "732EBC686EC66317"
 			tasks: [
 				{
@@ -184,18 +203,34 @@
 					item: { count: 1, id: "exdeorum:dust" }
 					type: "item"
 				}
+				{
+					id: "0555E42608A0A1F4"
+					item: { count: 1, id: "exdeorum:wooden_hammer" }
+					type: "item"
+				}
 			]
 			x: 4.0d
 			y: 0.0d
 		}
 		{
+			icon: {
+				id: "exdeorum:porcelain_lava_bucket"
+			}
 			id: "6562D8C6DB446CC1"
-			tasks: [{
-				id: "62291A68F0CFC4A1"
-				item: { count: 1, id: "exdeorum:porcelain_lava_bucket" }
-				type: "item"
-			}]
-			x: 10.0d
+			tasks: [
+				{
+					id: "62291A68F0CFC4A1"
+					item: { count: 1, id: "exdeorum:porcelain_lava_bucket" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0FF3C7D276CBC297"
+					item: { count: 1, id: "minecraft:torch" }
+					type: "item"
+				}
+			]
+			x: 11.5d
 			y: 0.0d
 		}
 		{
@@ -206,8 +241,80 @@
 				item: { count: 1, id: "minecraft:andesite" }
 				type: "item"
 			}]
-			x: 11.5d
+			x: 13.0d
 			y: 0.0d
+		}
+		{
+			id: "1DC7DE5F37305506"
+			tasks: [{
+				id: "55DE83F4217B1017"
+				item: { count: 1, id: "minecraft:furnace" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.0d
+		}
+		{
+			icon: {
+				id: "minecraft:bone"
+			}
+			id: "5940019E8EC503DE"
+			tasks: [
+				{
+					id: "2704CE1E7E2E0FAD"
+					item: { count: 1, id: "minecraft:bone" }
+					type: "item"
+				}
+				{
+					entity: "minecraft:skeleton"
+					id: "3F3E33CB0EA362E9"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 8.5d
+			y: 1.0d
+		}
+		{
+			icon: {
+				id: "minecraft:wooden_hoe"
+			}
+			id: "3DE215DD93EFC421"
+			tasks: [
+				{
+					count: 4L
+					id: "608BDEA37E51C37A"
+					item: { count: 1, id: "minecraft:wheat_seeds" }
+					type: "item"
+				}
+				{
+					id: "0F62F7A66B6272D6"
+					item: { count: 1, id: "minecraft:wooden_hoe" }
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			id: "00647212A31E9EF4"
+			tasks: [{
+				id: "729367832C4AC782"
+				item: { count: 1, id: "exdeorum:wooden_watering_can" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			id: "2F75AD2B8CB73CD0"
+			tasks: [{
+				id: "39EE927B2C408322"
+				item: { count: 1, id: "minecraft:bread" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.0d
 		}
 	]
 }
