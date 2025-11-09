@@ -337,7 +337,27 @@
 				type: "item"
 			}]
 			x: 13.0d
-			y: 0.0d
+			y: -1.0d
+		}
+		{
+			id: "6464894C9C90846C"
+			tasks: [{
+				count: 16L
+				id: "595452EBF74F8313"
+				item: { count: 1, id: "minecraft:cobblestone" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 1.0d
+		}
+		{
+			id: "53FA2AE659C0EFF0"
+			tasks: [{
+				id: "3E272BC429701E64"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 1.5d
 		}
 	]
 }

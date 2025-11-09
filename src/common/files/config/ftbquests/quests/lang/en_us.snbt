@@ -10,12 +10,30 @@
 	quest.40BBBE826F5D617B.quest_desc: ["Craft a Porcelain Crucible and a Porcelain Bucket"]
 	quest.4807B1A9A54EBB30.quest_desc: ["Craft a Sieve and a Mesh to Sieve. With this you can sift through Dirt, Sand, Gravel and Dust to get different Resources."]
 	quest.51EE1F2673C6223D.quest_desc: ["Sieve dirt to get cobblestone"]
+	quest.53FA2AE659C0EFF0.quest_desc: [
+		"You can sieve with multiple sieves at the same time by placing them next to each other."
+		""
+		"{image:amarena:textures/quests/stoneage/sieve_example.png width:192 height:102 align:center}"
+	]
 	quest.549A7EA5ED404015.quest_desc: ["To get string use a silkworm on leaves and let the worm infest the leaves (infested leaves turn white). When breaking infested leaves with a crook you can get strings"]
 	quest.5833FB4B6FEC129F.quest_desc: ["Now we craft a Wooden Crucible. It can be used to transform organic materials (like leaves) into water. "]
 	quest.5940019E8EC503DE.quest_desc: ["Build a platform so mobs can spawn and you can get bones."]
 	quest.5ED00AEAD7082D2D.quest_desc: ["Start out by chopping down your first tree"]
-	quest.6186ABE693414F26.quest_desc: ["Create clay by filling a wooden barrel with water (by using glass bottles to transfer the water from the crucible to the barrel) and right clicking on it with a sand block"]
-	quest.6562D8C6DB446CC1.quest_desc: ["Fill the Clay Crucible that is above a torch with cobblestone to get lava. Be warned though that a clay bucket will break after being filled with lava."]
+	quest.6186ABE693414F26.quest_desc: ["Create clay by filling a wooden barrel with water (by using glass bottles to transfer the water from the crucible to the barrel) and right clicking on it with a dust block"]
+	quest.6464894C9C90846C.quest_desc: [
+		"Build a Cobblestone generator."
+		""
+		"Example: "
+		""
+		"{image:amarena:textures/quests/stoneage/cobble_gen.png width:192 height:102 align:center}"
+	]
+	quest.6562D8C6DB446CC1.quest_desc: [
+		"Fill the Clay Crucible that is above a torch with cobblestone to get lava. Be warned though that a clay bucket will break after being filled with lava."
+		""
+		"Example:"
+		""
+		"{image:amarena:textures/quests/stoneage/crucible_setup.png width:192 height:102 align:center}"
+	]
 	quest.6CCE2DE024C4963B.quest_desc: ["Craft a shear. The shear is very helpfull to quickly get items to compost. Just make sure to not run out of saplings."]
 	quest.6D49299F4DE1F4D9.quest_desc: [
 		"Craft a Flint Mesh. Flint can be obtained by Sieving Dirt, Gravel or Sand."
@@ -24,4 +42,5 @@
 	quest.70850EA63C3C0490.quest_desc: ["Compost some leaves into dirt. Now you can start expanding your tree farming operation"]
 	quest.732EBC686EC66317.quest_desc: ["Place a cobblestone and break it with a hammer to get gravel. Repeat to get sand and dust"]
 	quest.7D97B7294AFE3313.quest_desc: ["Get Andesite Pebbles by sieving Dirt or Gravel with a Flint Mesh. Once this is Completed you can progress to the next age. "]
+	task.3E272BC429701E64.title: "I understand"
 }
