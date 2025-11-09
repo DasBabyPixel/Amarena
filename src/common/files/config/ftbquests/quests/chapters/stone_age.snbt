@@ -234,14 +234,26 @@
 			y: 0.0d
 		}
 		{
+			icon: {
+				id: "minecraft:andesite"
+			}
 			id: "7D97B7294AFE3313"
-			tasks: [{
-				count: 16L
-				id: "5E8BF2CE2B5788CC"
-				item: { count: 1, id: "minecraft:andesite" }
-				type: "item"
-			}]
-			x: 13.0d
+			shape: "pentagon"
+			tasks: [
+				{
+					count: 16L
+					id: "5E8BF2CE2B5788CC"
+					item: { count: 1, id: "minecraft:andesite" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "247A4E93E0F646D3"
+					item: { count: 4, id: "exdeorum:andesite_pebble" }
+					type: "item"
+				}
+			]
+			x: 14.5d
 			y: 0.0d
 		}
 		{
@@ -294,7 +306,7 @@
 				}
 			]
 			x: 5.5d
-			y: 2.0d
+			y: 3.0d
 		}
 		{
 			id: "00647212A31E9EF4"
@@ -304,17 +316,28 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: 1.0d
+			y: 1.5d
 		}
 		{
 			id: "2F75AD2B8CB73CD0"
 			tasks: [{
-				id: "39EE927B2C408322"
-				item: { count: 1, id: "minecraft:bread" }
+				count: 8L
+				id: "449F053C9AFD4B00"
+				item: { count: 8, id: "minecraft:wheat" }
 				type: "item"
 			}]
 			x: 5.5d
-			y: 3.0d
+			y: 4.5d
+		}
+		{
+			id: "6D49299F4DE1F4D9"
+			tasks: [{
+				id: "50DF38A23094680B"
+				item: { count: 1, id: "exdeorum:flint_mesh" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 0.0d
 		}
 	]
 }

@@ -1,9 +1,11 @@
 {
 	chapter.460ADB474639B65A.title: "Wooden Age"
 	quest.00063628979C8FAB.quest_desc: ["Craft a barrel. It can be used to compost plants. This results in dirt."]
+	quest.00647212A31E9EF4.quest_desc: ["Craft a Watering Can. It can be used to grow crops quickly."]
 	quest.1DB8DD6498E2B04A.quest_desc: ["Obtain a silkworm by breaking leaves with a crook. Each leave has a 1% chance to drop a silkworm"]
 	quest.1DC7DE5F37305506.quest_desc: ["Craft a furnace to be able to burn the clay items"]
 	quest.220DE7BCB081C67B.quest_desc: ["A crook can be used to break leaves faster"]
+	quest.2F75AD2B8CB73CD0.quest_desc: ["Now gather some Wheat to unlock bread"]
 	quest.3DE215DD93EFC421.quest_desc: ["Craft a Wooden Hoe and sieve Dirt for seeds"]
 	quest.40BBBE826F5D617B.quest_desc: ["Craft a Porcelain Crucible and a Porcelain Bucket"]
 	quest.4807B1A9A54EBB30.quest_desc: ["Craft a Sieve and a Mesh to Sieve. With this you can sift through Dirt, Sand, Gravel and Dust to get different Resources."]
@@ -15,6 +17,11 @@
 	quest.6186ABE693414F26.quest_desc: ["Create clay by filling a wooden barrel with water (by using glass bottles to transfer the water from the crucible to the barrel) and right clicking on it with a sand block"]
 	quest.6562D8C6DB446CC1.quest_desc: ["Fill the Clay Crucible that is above a torch with cobblestone to get lava. Be warned though that a clay bucket will break after being filled with lava."]
 	quest.6CCE2DE024C4963B.quest_desc: ["Craft a shear. The shear is very helpfull to quickly get items to compost. Just make sure to not run out of saplings."]
+	quest.6D49299F4DE1F4D9.quest_desc: [
+		"Craft a Flint Mesh. Flint can be obtained by Sieving Dirt, Gravel or Sand."
+		"To remove a Mesh from a Sieve shift right click it."
+	]
 	quest.70850EA63C3C0490.quest_desc: ["Compost some leaves into dirt. Now you can start expanding your tree farming operation"]
 	quest.732EBC686EC66317.quest_desc: ["Place a cobblestone and break it with a hammer to get gravel. Repeat to get sand and dust"]
+	quest.7D97B7294AFE3313.quest_desc: ["Get Andesite Pebbles by sieving Dirt or Gravel with a Flint Mesh. Once this is Completed you can progress to the next age. "]
 }
