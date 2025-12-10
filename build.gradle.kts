@@ -72,6 +72,8 @@ abstract class PrepareClient : Sync() {
         preserve {
             include(".vscode/**")
             include(".probe/**")
+            include("local/kubejs/cache/web/img/**") // ProbeJS Extension images
+            include("kubejs/")
             include("config/ftbquests/**")
             include("saves/**")
         }
@@ -116,6 +118,7 @@ abstract class PrepareDirectory : DefaultTask() {
         fun copy(src: DirectoryProperty) {
             src.get().asFileTree.visit {
                 val dst = dstDir.resolve(this.relativePath.pathString).toPath()
+                if (dst.fileName.toString() == "jsconfig.json") return@visit
                 if (file.isDirectory) {
                     dst.createDirectories()
                 } else {
@@ -178,14 +181,19 @@ tasks.register<PullFromMinecraft>("pullFromMinecraft") {
     copyDir("config/ftbquests/quests", "common/files/config/ftbquests/quests")
     // Copy this because of the ProbeJS registry hash
     copyFile("kubejs/config/probe-settings.json", "client/local-files/kubejs/config", "probe-settings.json")
+    copyFile("kubejs/config/web_server.json", "client/local-files/kubejs/config", "web_server.json")
 }
 
 tasks.register<PushToMinecraft>("pushToMinecraft") {
     outputs.upToDateWhen { false }
     into(directory)
     fun copyDir(srcDir: String, dstDir: String) {
-        from("src/$srcDir") { into(dstDir) }
-        preserve { exclude("$dstDir/**") }
+        from("src/$srcDir") {
+            into(dstDir)
+        }
+        preserve {
+            exclude("$dstDir/**")
+        }
     }
     doNotTrackState("session lock file")
 
