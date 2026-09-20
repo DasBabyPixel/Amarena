@@ -28,6 +28,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["220DE7BCB081C67B"]
 			id: "1DB8DD6498E2B04A"
 			rewards: [{
 				auto: "invisible"
@@ -45,6 +46,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["5ED00AEAD7082D2D"]
 			id: "00063628979C8FAB"
 			rewards: [{
 				auto: "invisible"
@@ -61,6 +63,7 @@
 			y: 1.0d
 		}
 		{
+			dependencies: ["5ED00AEAD7082D2D"]
 			id: "220DE7BCB081C67B"
 			rewards: [{
 				auto: "invisible"
@@ -77,6 +80,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["6CCE2DE024C4963B"]
 			id: "70850EA63C3C0490"
 			rewards: [{
 				auto: "invisible"
@@ -94,6 +98,7 @@
 			y: 1.0d
 		}
 		{
+			dependencies: ["00063628979C8FAB"]
 			id: "6CCE2DE024C4963B"
 			rewards: [{
 				auto: "invisible"
@@ -110,6 +115,10 @@
 			y: 1.0d
 		}
 		{
+			dependencies: [
+				"549A7EA5ED404015"
+				"70850EA63C3C0490"
+			]
 			icon: {
 				id: "exdeorum:oak_sieve"
 			}
@@ -136,6 +145,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["1DB8DD6498E2B04A"]
 			id: "549A7EA5ED404015"
 			rewards: [{
 				auto: "invisible"
@@ -152,6 +162,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["4807B1A9A54EBB30"]
 			icon: {
 				id: "minecraft:cobblestone"
 			}
@@ -179,6 +190,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["732EBC686EC66317"]
 			icon: {
 				id: "exdeorum:oak_crucible"
 			}
@@ -198,6 +210,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["1DC7DE5F37305506"]
 			icon: {
 				id: "minecraft:clay"
 			}
@@ -224,6 +237,10 @@
 			y: -1.0d
 		}
 		{
+			dependencies: [
+				"6186ABE693414F26"
+				"5940019E8EC503DE"
+			]
 			icon: {
 				id: "exdeorum:unfired_porcelain_crucible"
 			}
@@ -255,6 +272,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["51EE1F2673C6223D"]
 			icon: {
 				id: "exdeorum:wooden_hammer"
 			}
@@ -291,6 +309,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["40BBBE826F5D617B"]
 			icon: {
 				id: "exdeorum:porcelain_lava_bucket"
 			}
@@ -318,6 +337,10 @@
 			y: 0.0d
 		}
 		{
+			dependencies: [
+				"6D49299F4DE1F4D9"
+				"6464894C9C90846C"
+			]
 			icon: {
 				id: "minecraft:andesite"
 			}
@@ -341,6 +364,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["5833FB4B6FEC129F"]
 			id: "1DC7DE5F37305506"
 			rewards: [{
 				auto: "invisible"
@@ -357,6 +381,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["1DC7DE5F37305506"]
 			icon: {
 				id: "minecraft:bone"
 			}
@@ -384,6 +409,7 @@
 			y: 1.0d
 		}
 		{
+			dependencies: ["00647212A31E9EF4"]
 			icon: {
 				id: "minecraft:wooden_hoe"
 			}
@@ -411,6 +437,7 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["5833FB4B6FEC129F"]
 			id: "00647212A31E9EF4"
 			rewards: [{
 				auto: "invisible"
@@ -427,6 +454,7 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["3DE215DD93EFC421"]
 			id: "2F75AD2B8CB73CD0"
 			rewards: [{
 				auto: "invisible"
@@ -444,6 +472,7 @@
 			y: 4.5d
 		}
 		{
+			dependencies: ["6562D8C6DB446CC1"]
 			id: "6D49299F4DE1F4D9"
 			rewards: [{
 				auto: "invisible"
@@ -460,6 +489,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["6562D8C6DB446CC1"]
 			id: "6464894C9C90846C"
 			tasks: [{
 				count: 16L
@@ -471,6 +501,7 @@
 			y: 1.0d
 		}
 		{
+			dependencies: ["4807B1A9A54EBB30"]
 			id: "53FA2AE659C0EFF0"
 			tasks: [{
 				id: "3E272BC429701E64"
