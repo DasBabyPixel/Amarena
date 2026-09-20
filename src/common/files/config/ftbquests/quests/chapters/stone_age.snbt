@@ -7,11 +7,17 @@
 		id: "minecraft:oak_wood"
 	}
 	id: "460ADB474639B65A"
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
 			id: "5ED00AEAD7082D2D"
+			rewards: [{
+				auto: "invisible"
+				id: "1C280E8654A404A4"
+				stage: "wooden_age_tree"
+				type: "gamestage"
+			}]
 			tasks: [{
 				count: 8L
 				id: "1F28B908B17ED5E3"
@@ -23,6 +29,12 @@
 		}
 		{
 			id: "1DB8DD6498E2B04A"
+			rewards: [{
+				auto: "invisible"
+				id: "5B6B9F8C2A7F43A2"
+				stage: "wooden_age_silkworm"
+				type: "gamestage"
+			}]
 			tasks: [{
 				consume_items: true
 				id: "198616249AD648AE"
@@ -34,6 +46,12 @@
 		}
 		{
 			id: "00063628979C8FAB"
+			rewards: [{
+				auto: "invisible"
+				id: "0EB0A8AA10D289E0"
+				stage: "wooden_age_barrel"
+				type: "gamestage"
+			}]
 			tasks: [{
 				id: "0B8E5B2F64003F13"
 				item: { count: 1, id: "exdeorum:oak_barrel" }
@@ -44,6 +62,12 @@
 		}
 		{
 			id: "220DE7BCB081C67B"
+			rewards: [{
+				auto: "invisible"
+				id: "38091C09AC5B19C0"
+				stage: "wooden_age_crook"
+				type: "gamestage"
+			}]
 			tasks: [{
 				id: "492CB8AAD7E2AA40"
 				item: { count: 1, id: "exdeorum:crook" }
@@ -54,6 +78,12 @@
 		}
 		{
 			id: "70850EA63C3C0490"
+			rewards: [{
+				auto: "invisible"
+				id: "4E62F06E4F0EE211"
+				stage: "wooden_age_dirt"
+				type: "gamestage"
+			}]
 			tasks: [{
 				count: 4L
 				id: "66F1416734E87F5B"
@@ -65,6 +95,12 @@
 		}
 		{
 			id: "6CCE2DE024C4963B"
+			rewards: [{
+				auto: "invisible"
+				id: "4B49BE1B259872ED"
+				stage: "wooden_age_shears"
+				type: "gamestage"
+			}]
 			tasks: [{
 				id: "4DC7336180A76754"
 				item: { count: 1, id: "woodenshears:wooden_shears" }
@@ -78,6 +114,12 @@
 				id: "exdeorum:oak_sieve"
 			}
 			id: "4807B1A9A54EBB30"
+			rewards: [{
+				auto: "invisible"
+				id: "3652EA0BB3404BFA"
+				stage: "wooden_age_sieve"
+				type: "gamestage"
+			}]
 			tasks: [
 				{
 					id: "27A38F7B6C8D8549"
@@ -95,6 +137,12 @@
 		}
 		{
 			id: "549A7EA5ED404015"
+			rewards: [{
+				auto: "invisible"
+				id: "2C79D7C802C6F3C2"
+				stage: "wooden_age_string"
+				type: "gamestage"
+			}]
 			tasks: [{
 				id: "5EEAF4950E6C141F"
 				item: { count: 1, id: "minecraft:string" }
@@ -108,6 +156,12 @@
 				id: "minecraft:cobblestone"
 			}
 			id: "51EE1F2673C6223D"
+			rewards: [{
+				auto: "invisible"
+				id: "7466C04E779F9CFA"
+				stage: "wooden_age_cobblestone"
+				type: "gamestage"
+			}]
 			tasks: [
 				{
 					id: "6E861D0E67E7107A"
@@ -129,6 +183,12 @@
 				id: "exdeorum:oak_crucible"
 			}
 			id: "5833FB4B6FEC129F"
+			rewards: [{
+				auto: "invisible"
+				id: "2149B2880B4873EC"
+				stage: "wooden_age_crucible"
+				type: "gamestage"
+			}]
 			tasks: [{
 				id: "78E3C1E79DBCB724"
 				item: { count: 1, id: "exdeorum:oak_crucible" }
@@ -142,6 +202,12 @@
 				id: "minecraft:clay"
 			}
 			id: "6186ABE693414F26"
+			rewards: [{
+				auto: "invisible"
+				id: "518ABF9B3B8D0152"
+				stage: "wooden_age_clay"
+				type: "gamestage"
+			}]
 			tasks: [
 				{
 					id: "0EF81B8E5D3D0463"
@@ -154,14 +220,20 @@
 					type: "item"
 				}
 			]
-			x: 7.0d
-			y: 0.0d
+			x: 8.5d
+			y: -1.0d
 		}
 		{
 			icon: {
 				id: "exdeorum:unfired_porcelain_crucible"
 			}
 			id: "40BBBE826F5D617B"
+			rewards: [{
+				auto: "invisible"
+				id: "625596FF412632E8"
+				stage: "wooden_age_porcelain"
+				type: "gamestage"
+			}]
 			tasks: [
 				{
 					id: "4EC520EB1AE92C36"
@@ -187,6 +259,12 @@
 				id: "exdeorum:wooden_hammer"
 			}
 			id: "732EBC686EC66317"
+			rewards: [{
+				auto: "invisible"
+				id: "3D7E945A6B13E90E"
+				stage: "wooden_age_hammer"
+				type: "gamestage"
+			}]
 			tasks: [
 				{
 					id: "136CBAC9B478CC86"
@@ -217,6 +295,12 @@
 				id: "exdeorum:porcelain_lava_bucket"
 			}
 			id: "6562D8C6DB446CC1"
+			rewards: [{
+				auto: "invisible"
+				id: "3B4FA30FD780EB63"
+				stage: "wooden_age_lava"
+				type: "gamestage"
+			}]
 			tasks: [
 				{
 					id: "62291A68F0CFC4A1"
@@ -258,19 +342,31 @@
 		}
 		{
 			id: "1DC7DE5F37305506"
+			rewards: [{
+				auto: "invisible"
+				id: "715E81CFDE676765"
+				stage: "wooden_age_furnace"
+				type: "gamestage"
+			}]
 			tasks: [{
 				id: "55DE83F4217B1017"
 				item: { count: 1, id: "minecraft:furnace" }
 				type: "item"
 			}]
-			x: 8.5d
-			y: -1.0d
+			x: 7.0d
+			y: 0.0d
 		}
 		{
 			icon: {
 				id: "minecraft:bone"
 			}
 			id: "5940019E8EC503DE"
+			rewards: [{
+				auto: "invisible"
+				id: "4AA7BD433B66DDCC"
+				stage: "wooden_age_bone"
+				type: "gamestage"
+			}]
 			tasks: [
 				{
 					id: "2704CE1E7E2E0FAD"
@@ -292,6 +388,12 @@
 				id: "minecraft:wooden_hoe"
 			}
 			id: "3DE215DD93EFC421"
+			rewards: [{
+				auto: "invisible"
+				id: "2A0AB99B654ACB49"
+				stage: "wooden_age_farming"
+				type: "gamestage"
+			}]
 			tasks: [
 				{
 					count: 4L
@@ -310,6 +412,12 @@
 		}
 		{
 			id: "00647212A31E9EF4"
+			rewards: [{
+				auto: "invisible"
+				id: "107D2C9518198488"
+				stage: "wooden_age_watering_can"
+				type: "gamestage"
+			}]
 			tasks: [{
 				id: "729367832C4AC782"
 				item: { count: 1, id: "exdeorum:wooden_watering_can" }
@@ -320,6 +428,12 @@
 		}
 		{
 			id: "2F75AD2B8CB73CD0"
+			rewards: [{
+				auto: "invisible"
+				id: "0B1E6B47A6D23FE3"
+				stage: "wooden_age_wheat"
+				type: "gamestage"
+			}]
 			tasks: [{
 				count: 8L
 				id: "449F053C9AFD4B00"
@@ -331,6 +445,12 @@
 		}
 		{
 			id: "6D49299F4DE1F4D9"
+			rewards: [{
+				auto: "invisible"
+				id: "60A7B8D730764076"
+				stage: "wooden_age_flint_mesh"
+				type: "gamestage"
+			}]
 			tasks: [{
 				id: "50DF38A23094680B"
 				item: { count: 1, id: "exdeorum:flint_mesh" }
