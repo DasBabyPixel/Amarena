@@ -1,0 +1,19 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "abc"
+	group: ""
+	id: "0C8E38D3F43E179A"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "5AFCFD0A26BE7174"
+		tasks: [{
+			id: "533D8B89DF05303B"
+			item: { count: 1, id: "minecraft:oak_log" }
+			type: "item"
+		}]
+		x: -2.0d
+		y: -2.0d
+	}]
+}

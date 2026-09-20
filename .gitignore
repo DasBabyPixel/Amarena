@@ -8,4 +8,3 @@
 !/gradle
 !/src
 /src/*/local-files
-/src/*/*/kubejs/*/jsconfig.json
