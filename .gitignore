@@ -7,4 +7,9 @@
 !/gradlew.bat
 !/gradle
 !/src
+!/CLAUDE.md
+!/knowledge-manager
+!/.claude
 /src/*/local-files
+/.claude/*
+!/.claude/skills

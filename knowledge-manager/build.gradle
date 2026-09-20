@@ -1,0 +1,22 @@
+plugins {
+    id 'application'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.18.3'
+    implementation 'dev.langchain4j:langchain4j:1.0.0'
+    implementation 'dev.langchain4j:langchain4j-embeddings-all-minilm-l6-v2-q:1.0.0-beta5'
+}
+
+application {
+    mainClass = 'com.gogolinolett.km.Main'
+}
+
+tasks.named('run') {
+    // Vault/ must be created next to build.gradle, not wherever Gradle was invoked from.
+    workingDir = projectDir
+}
